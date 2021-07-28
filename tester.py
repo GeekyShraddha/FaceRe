@@ -35,7 +35,7 @@ for face in faces_detected:
     fr.put_text(test_img,predicted_name,x,y)
 
 resized_img=cv2.resize(test_img,(1000,1000))
-cv2.imshow("face dtecetion tutorial",resized_img)
+cv2.imshow("face detection",resized_img)
 cv2.waitKey(0)#Waits indefinitely until a key is pressed
 cv2.destroyAllWindows
 
